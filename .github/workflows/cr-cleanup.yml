@@ -9,6 +9,8 @@ on:
 jobs:
   clean-up-containers:
     name: ghcr.io cleanup action
+    permissions:
+      packages: write
     runs-on: ubuntu-latest
 
     steps:
